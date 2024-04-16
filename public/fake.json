@@ -14,7 +14,7 @@
       "Spacious Living Room",
       "Backyard"
     ],
-    "image": "./imgs/1.jpg",
+    "image": "/imgs/1.jpg",
     "view_property_button": "View Property",
     "rating": 4.5,
     "total_ratings": 10
@@ -29,7 +29,7 @@
     "area": "1,200 sq ft",
     "location": "Downtown",
     "facilities": ["1 Bedroom", "1 Bathroom", "Balcony", "Fitness Center"],
-    "image": "./imgs/2.jpg",
+    "image": "/imgs/2.jpg",
     "view_property_button": "View Property",
     "rating": 4.2,
     "total_ratings": 8
@@ -44,7 +44,7 @@
     "area": "5,000 sq ft",
     "location": "Coastal Area",
     "facilities": ["4 Bedrooms", "3 Bathrooms", "Swimming Pool", "Garden"],
-    "image": "./imgs/3.jpg",
+    "image": "/imgs/3.jpg",
     "view_property_button": "View Property",
     "rating": 4.8,
     "total_ratings": 15
@@ -59,7 +59,7 @@
     "area": "1,800 sq ft",
     "location": "Rural Setting",
     "facilities": ["2 Bedrooms", "1 Bathroom", "Fireplace", "Large Yard"],
-    "image": "./imgs/4.jpg",
+    "image": "/imgs/4.jpg",
     "view_property_button": "View Property",
     "rating": 4.0,
     "total_ratings": 5
@@ -74,7 +74,7 @@
     "area": "3,200 sq ft",
     "location": "Lakeside",
     "facilities": ["3 Bedrooms", "2 Bathrooms", "Boat Dock", "Deck"],
-    "image": "./imgs/5.jpg",
+    "image": "/imgs/5.jpg",
     "view_property_button": "View Property",
     "rating": 4.7,
     "total_ratings": 20
@@ -94,7 +94,7 @@
       "Exposed Brick",
       "Rooftop Terrace"
     ],
-    "image": "./imgs/6.jpg",
+    "image": "/imgs/6.jpg",
     "view_property_button": "View Property",
     "rating": 4.3,
     "total_ratings": 12
@@ -109,7 +109,7 @@
     "area": "2,500 sq ft",
     "location": "Mountain Resort",
     "facilities": ["3 Bedrooms", "2 Bathrooms", "Fireplace", "Ski Storage"],
-    "image": "./imgs/7.jpg",
+    "image": "/imgs/7.jpg",
     "view_property_button": "View Property",
     "rating": 4.9,
     "total_ratings": 18
@@ -124,7 +124,7 @@
     "area": "1,500 sq ft",
     "location": "Seaside",
     "facilities": ["2 Bedrooms", "1 Bathroom", "Ocean View Deck", "Garden"],
-    "image": "./imgs/8.jpg",
+    "image": "/imgs/8.jpg",
     "view_property_button": "View Property",
     "rating": 4.1,
     "total_ratings": 7
@@ -139,7 +139,7 @@
     "area": "6,000 sq ft",
     "location": "Rural Area",
     "facilities": ["5 Bedrooms", "4 Bathrooms", "Swimming Pool", "Guest House"],
-    "image": "./imgs/9.jpg",
+    "image": "/imgs/9.jpg",
     "view_property_button": "View Property",
     "rating": 4.6,
     "total_ratings": 25

@@ -1,12 +1,10 @@
 /* eslint-disable react/prop-types */
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
+AOS.init();
 export default function EstateCard({ item }) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <main className="py-6 px-4 sm:p-6 md:py-10 md:px-8" data-aos="zoom-in-up">
       <div className="max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2">
@@ -79,19 +77,20 @@ export default function EstateCard({ item }) {
           </dd>
         </dl>
         <div className="mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4">
-          <button
+          <NavLink
+            to={`./details/${item.id}/`}
             type="button"
             className="bg-indigo-600 text-white text-sm leading-6 font-medium py-2 px-3 rounded-lg"
           >
             {item.view_property_button}
-          </button>
+          </NavLink>
         </div>
-        <p className="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
+        <div className="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
           {item.description}{" "}
           <h1 className="mt-2 text-lg font-semibold md:text-2xl text-black">
             {item.price}
           </h1>
-        </p>
+        </div>
       </div>
     </main>
   );
