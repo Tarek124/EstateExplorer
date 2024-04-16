@@ -16,7 +16,6 @@ const Login = () => {
   const navigator = () => {
     return navigate(location?.state ? location.state : "/");
   };
-  console.log(location)
   const notify = (msg, name, x = null) => {
     toast[name](msg, {
       position: "top-right",

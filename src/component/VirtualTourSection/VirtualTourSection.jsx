@@ -8,7 +8,7 @@ import { FaArrowAltCircleDown, FaArrowAltCircleUp } from "react-icons/fa";
 const VirtualTourSection = () => {
   const { homeData } = useContext(MyContext);
   return (
-    <section className="flex lg:flex-row flex-col justify-center  lg:items-center p-4 gap-4 my-4">
+    <section className="flex h-[80vh] lg:flex-row flex-col justify-center  lg:items-center gap-4 ">
       <Helmet>
         <title>Virtual Tour </title>
       </Helmet>
