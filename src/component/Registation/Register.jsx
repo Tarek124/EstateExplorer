@@ -1,16 +1,19 @@
 /* eslint-disable no-unused-vars */
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { MyContext } from "../../AppContext/AppContext";
 import { ToastContainer, Bounce, toast } from "react-toastify";
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 
 const Register = () => {
   const { createUser, updateUser, dataUpdated, setDataUpdated } =
     useContext(MyContext);
   const navigate = useNavigate();
   const location = useLocation();
+  const [showPass, setShowPass] = useState(false);
 
   let errorMsg = "";
   const handleRegister = (e) => {
@@ -121,18 +124,33 @@ const Register = () => {
             name="email"
           />
         </label>
-        <label className="form-control w-full ">
-          <div className="label">
-            <span className="label-text font-semibold">Password</span>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text  font-semibold">Password</span>
+          </label>
+          <div className="relative">
+            <input
+              type={showPass ? "text" : "password"}
+              placeholder="password"
+              className="input input-bordered w-full"
+              required
+              name="password"
+            />
+            <div>
+              {showPass ? (
+                <FaEye
+                  onClick={() => setShowPass(false)}
+                  className="text-2xl absolute top-3 right-2"
+                />
+              ) : (
+                <FaEyeSlash
+                  onClick={() => setShowPass(true)}
+                  className="text-2xl absolute top-3 right-2"
+                />
+              )}
+            </div>
           </div>
-          <input
-            type="password"
-            placeholder="Password"
-            className="input input-bordered w-full "
-            required
-            name="password"
-          />
-        </label>
+        </div>
         <div>{errorMsg}</div>
         <div className="flex items-center gap-2 mt-4">
           <input type="checkbox" required className="checkbox" />
