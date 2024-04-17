@@ -28,7 +28,7 @@ const VirtualTourSection = () => {
       </div>
 
       <div className="h-96 carousel carousel-vertical rounded-box animate__fadeInRight animate__animated">
-        {homeData.map((item, inx) => {
+        {homeData?.map((item, inx) => {
           return (
             <div key={inx} className="carousel-item h-full relative w-full">
               <div className=" pl-4 pr-8 py-4 absolute max-w-lg text-3xl font-semibold leading-normal">

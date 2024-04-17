@@ -17,7 +17,7 @@ export default function Estate() {
         <button className="btn rounded-full">Reseacrching</button>
       </div>
       <div>
-        {homeData.map((item) => (
+        {homeData?.map((item) => (
           <EstateCard key={item.id} item={item} />
         ))}
       </div>

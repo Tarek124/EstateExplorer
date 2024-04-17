@@ -14,12 +14,11 @@ export default function Navbar() {
         <li>
           <NavLink to="/updateprofile">Update Profile</NavLink>
         </li>
-      )}{" "}
-      {user && (
+      )}
+    
         <li>
           <NavLink to="/VirtualTour">Virtual Tour</NavLink>
         </li>
-      )}
       <li>
         <NavLink to="/contact">Contact</NavLink>
       </li>
