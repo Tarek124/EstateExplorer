@@ -1,9 +1,9 @@
 # EstateExplorer
 
-Welcome to EstateExplorer, where city living meets modern convenience!
+Welcome to EstateExplorer, where city living meets modern convenience!!
 
 *Website URL:* https://assignment-9-fb78d.web.app/
-*Repo Link :*https://github.com/programming-hero-web-course-4/b9a9-real-estate-Tarek124
+
 
 ## Features and Highlights:
 
