@@ -122,7 +122,7 @@ const Login = () => {
               required
               name="password"
             />
-            <div>
+            <div className="cursor-pointer">
               {showPass ? (
                 <FaEye
                   onClick={() => setShowPass(false)}
